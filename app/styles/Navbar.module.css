@@ -1,0 +1,36 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+  display: flex;                /* Use flexbox for layout */
+  justify-content: space-between; /* Space out items */
+  align-items: center;         /* Center items vertically */
+  background-color: purple;    /* Purple background */
+  padding: 10px 20px;          /* Padding for space at both ends */
+  color: white;                /* White text color */
+}
+
+.logo {
+  font-size: 24px;             /* Larger font size for the logo */
+}
+
+.navLinks {
+  list-style-type: none;       /* Remove default list styles */
+  display: flex;               /* Display links in a row */
+  padding: 0;                  /* Remove default padding */
+  margin: 0;                   /* Remove default margin */
+}
+
+.navLinks li {
+  margin-left: 20px;           /* Space between links */
+}
+
+.navLinks a {
+  color: white;                /* White text color for links */
+  text-decoration: none;       /* Remove underline from links */
+  transition: color 0.3s;     /* Transition for hover effect */
+}
+
+.navLinks a:hover {
+  text-decoration: underline;  /* Underline on hover */
+  color: lightgray;            /* Change color on hover */
+}
